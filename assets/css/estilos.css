@@ -279,6 +279,11 @@ body {
     font-size: 24px;
 }
 
+.cartao__botao--shop::before {
+    content: "\e901";
+    font-size: 24px;
+}
+
 .cartao__botao--destaque {
     width: 100%;
     grid-column: span 2;
