@@ -257,6 +257,11 @@ body {
     margin-right: 8px;    
 }
 
+.cartao__info--dinheiro::before {
+    content: "\e905";
+    font-size: 24px;
+}
+
 .cartao__info--visualizacao::before {
     content: "\e90f";
     margin-right: 8px;    
